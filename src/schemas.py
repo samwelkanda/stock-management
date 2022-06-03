@@ -1,9 +1,10 @@
 from pydantic import BaseModel
 
+
 class CreateStock(BaseModel):
     count: int
 
-class GetStock(BaseModel):
+
+class UpdateStock(BaseModel):
     id: int
     count: int
-    
