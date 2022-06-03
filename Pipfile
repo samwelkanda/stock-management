@@ -9,6 +9,8 @@ uvicorn = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
 alembic = "*"
+pytest = "*"
+requests = "*"
 
 [dev-packages]
 
